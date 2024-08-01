@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<article class="post">
+  <header>
+    {% if page.since %}
+    since
+    <time datetime="{{ page.since | date: "%Y-%m-%d" }}">{{ page.since | date_to_string }}</time>
+    until
+    {% endif %}
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+    {% if page.updated %}
+    and last updated on
+    <time datetime="{{ page.updated | date: "%Y-%m-%d" }}">{{ page.updated | date_to_string }}</time>
+    {% endif %}
+
+    <h1>
+      {% include icons-entypo.html type=page.type icon=page.icon %}
+      {{ page.title }}
+    </h1>
+  </header>
+
+  <div>
+    {{ content }}
+  </div>
+
+  <ul class="tags">
+    {% for tag in page.tags %}
+    <li>
+      {% include icons-entypo.html type=tag %}
+      <span>{{ tag }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% if page.disqus %}
+  <div id="disqus_thread"> </div>
+  <script type="text/javascript" src="https://disqus.com/forums/{{ site.disqus_shortname }}/embed.js"> </script>
+  <noscript><a href="https://{{ site.disqus_shortname }}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+  {% endif %}
+</article>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html id="classic">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- twitter -->
+    <meta name="twitter:card" content="{% if page.twitter and page.twitter.card %}{{ page.twitter.card }}{% else %}summary{% endif %}">
+    <meta name="twitter:site" content="{% if page.twitter and page.twitter.site%}{{page.twitter.site}}{% else %}vidbina{% endif %}">
+    <meta name="twitter:creator" content="{% if page.twitter and page.twitter.creator%}{{page.twitter.creator}}{% else %}vidbina{% endif %}">
+    {% if page.twitter and page.twitter.image %}<meta name="twitter:image" content="{{ page.twitter.image }}">{% endif %}
+
+    <meta name="twitter:site" content="{% if page.twitter and page.twitter.site%}{{page.twitter.site}}{% else %}vidbina{% endif %}">
+    <meta name="twitter:creator" content="{% if page.twitter and page.twitter.creator%}{{page.twitter.creator}}{% else %}vidbina{% endif %}">
+    {% if page.twitter and page.twitter.image %}<meta name="twitter:image" content="{{ page.twitter.image }}">{% endif %}
+
+    <meta property="og:type" content="{% if page.og and page.og.type %}{{ page.og.type}}{% else %}article{% endif %}" />
+    {% if page.og %}
+    {% if page.og[page.og.type] %}
+    {% for og_type_els in page.og[page.og.type] %}
+    {% for og_type_el in og_type_els %}
+    <meta property="{{og_type_el[0]}}" content="{{og_type_el[1]}}" />
+    {% endfor %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:description" content="{{ page.description | emojify }}" />
+
+    {% if page.og and page.og.image %}
+    <meta property="og:image" content="{{ page.og.image }}" />
+    {% elsif page.image %}
+    <meta property="og:image" content="{{ page.image }}" />
+    {% elsif page.twitter.image %}
+    <meta property="og:image" content="{{ page.twitter.image }}" />
+    {% endif %}
+
+    {% if page.og and page.og.article %}
+    {% if page.og.article.author %}<meta property="article:author" content="{{page.og.article.author}}">{% endif %}
+    {% if page.og.article.section %}<meta property="article:section" content="{{page.og.article.section}}">{% endif %}
+    {% if page.og.article.tags %}
+    {% for tag in page.og.article.tags %}<meta property="article:tag" content="{{tag}}">{% endfor %}
+    {% else %}
+    {% for tag in page.tags %}<meta property="article:tag" content="{{tag}}">{% endfor %}
+    {% endif %}
+    {% endif %}
+
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="/svg/silhouette.svg">
+
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/print.css" media="print">
+    <link rel="stylesheet" href="{{ site.url }}/vendor/font-awesome/5.15.1/css/fontawesome.min.css">
+
+    <!-- head includes -->
+    {% if page.mathjax %}
+    {% include mathjax.html %}
+    {% endif %}
+
+    {% if page.emojify %}
+    {% include emojify.html %}
+    {% endif %}
+
+    {% if page.function_plot %}
+    {% include function_plot.html %}
+    {% endif %}
+    <!-- end includes -->
+  </head>
+  <body class="light">
+    <base>
+    <button class="swap" onclick="swapColors();"><span>swap colors</span></button>
+    <div class="site">
+      <header>
+        <a href="/">
+        <h1 class="title">{{ site.name }}</h1>
+        {% include logo.html %}
+        </a>
+        <p>{{ site.slogan }}</p>
+      </header>
+
+      {{ content }}
+
+      <div class="footer">
+        <div class="contact">
+          <p>
+            David Asabina
+            <a href="https://twitter.com/vidbina"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/vidbina"><i class="fa fa-github-alt"></i></a>
+            <a href="https://instagram.com/vidbina"><i class="fa fa-instagram"></i></a>
+            <br />
+            Engineer &#9679; Dreamer &#9679; Observer &#9679; Musician<br />
+            vid at bina dot me</br>
+          </p>
+        </div>
+        <!--
+        <div class="contact">
+          <p>
+            <a href="https://github.com/yourusername">github.com/yourusername</a><br />
+            <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
+          </p>
+        </div>
+        -->
+      </div>
+    </div>
+  </body>
+<script type="text/javascript">
+function swapColors() {
+  var body = document.getElementsByTagName("body")[0];
+  console.log('body is', body, 'with class', body.className);
+  switch(body.className) {
+    case "light":
+      body.className = "dark";
+      console.log(1);
+      break;
+    case "dark":
+      body.className = "light";
+      console.log(2);
+      break;
+    default:
+  }
+}
+</script>
+<script type="text/javascript">
+{% if true %}
+(function() {
+  var links = document.links;
+  for (var i = 0; i < links.length; i++) {
+    const link = links[i]
+
+    if(link.hostname == document.location.hostname) {
+      console.log("open in current", link.getAttribute("href"));
+    } else {
+      console.log("open in new for", link.getAttribute("href"));
+      links[i].target = "_blank";
+    }
+  }
+})();
+{% endif %}
+</script>
+<script type="text/javascript">
+(function() {
+  var els = document.querySelectorAll('.element.img.zoomable');
+  var style = document.createElement('style');
+  //var z_r1 = 0;
+  //var z_r2 = 0;
+  style.appendChild(document.createTextNode(''));
+  document.head.appendChild(style);
+
+  for (var i = 0; i < els.length; i++) {
+    (function(div, id) {
+      div.id = 'img_' + id;
+      var img =  div.getElementsByTagName('img')[0];
+
+      var image = new Image();
+      image.onload = function() {
+        img.src = this.src;
+        var sx = this.width/img.width, sy = this.height/img.height;
+        const scaleStyle = (id) => (x, y, sx, sy, wx, wy) => {
+          const fW = Math.min(wx/x, wy/y); // scala factor to fit
+          const fA = Math.min(sx/x, sy/y); // scale factor to original
+          const k = Math.min(fA, fW);
+          return(
+            '#img_' + id + 
+            ':hover { transform: scale3d(' + k + ', ' + k + ', 1); }'
+          );
+        };
+        const genStyle = () => scaleStyle(id)(
+          img.width, img.height,    // image dimensions in document
+          this.width, this.height,  // original image dimensions
+          window.innerWidth, window.innerHeight // window dimensions
+        );
+        style.sheet.insertRule(genStyle(), id);
+        /*
+        window.addEventListener("resize", () => {
+          z_r1 = z_r1 + 1;
+          console.log({ z_r1, z_r2, 'sheet': style.sheet });
+        });
+        */
+        window.addEventListener("optimizedResize", () => {
+          //z_r2 = z_r2 + 1;
+          style.sheet.deleteRule(id);
+          style.sheet.insertRule(genStyle(), id);
+        });
+
+      };
+      image.src = img.src;
+      img.src = "";
+
+      // Copied from https://developer.mozilla.org/en-US/docs/Web/Events/resize
+      var throttle = function(type, name, obj) {
+        obj = obj || window;
+        var running = false;
+        var func = function() {
+          if (running) { return; }
+          running = true;
+          requestAnimationFrame(function() {
+            obj.dispatchEvent(new CustomEvent(name));
+            running = false;
+          });
+        };
+        obj.addEventListener(type, func);
+      };
+
+      /* init - you can init any event */
+      throttle("resize", "optimizedResize");
+    })(els[i], i);
+  }
+})();
+</script>
+{% if page.emojify %}
+{% include emojify-script.html %}
+{% endif %}
+</html>

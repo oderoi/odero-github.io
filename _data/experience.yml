@@ -1,0 +1,583 @@
+- organization:
+    name: NixOS
+    url: https://github.com/nixos/nixpkgs/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Avidbina
+  country: N/A
+  city: N/A
+  period: June 2017 - present
+  title: contributor
+  active: true
+  public: true
+  description: |
+    Contributing to my new favorite Linux distribution by occasionally 
+  keywords:
+    - Linux
+    - NixOS
+    - package repository
+- organization:
+    name: Asabina GmbH
+    url: https://asabina.de
+  country: Germany
+  city: Berlin
+  period: October 2017 - present
+  title: CEO/CTO
+  active: true
+  public: true
+  description: |
+    Heading an engineering firm focussed on helping firms develop tech
+    solutions that leverage blockchain technology, cloud computing or IoT.
+    With a distributed team of engineer, we take on the development of
+    electronic devices including the circuit design and firmware development.
+    Furthermore, we have helped several companies build their cloud
+    infrastructure from scratch or upgrade their infrastructure to facilitate
+    growth. Occasionally, we have jumped in to help companies fix front-end
+    applications or smartphone apps although that doesn't necessarily represent
+    our core focus. All in all -- the team is comprised of a rather versatile
+    set of engineers and has succeeded in tackling a variety of engineering
+    problems.
+  keywords:
+    - AWS
+    - C
+    - Embedded Systems
+    - FreeRTOS
+    - GCP
+    - IoT
+    - Kubernetes
+    - TensorFlow
+    - Terraform
+    - pytorch
+- organization:
+    name: BCT, Inc.
+    url: https://bct.io
+  country: USA
+  city: NYC
+  period: January 2018 - March 2018
+  title: Consultant
+  active: false
+  public: true
+  description: |
+    Assisting in identifying pain-points in usage and technology and also in
+    demonstrating the product at various conferences in the United States and
+    Europe and closed sessions. Due to my familiarity with trading and
+    blockchain technology, I was able to inform interested parties about the
+    technical implementation details of the platform with regards to
+    engineering and trading mechanics.
+  keywords:
+    - bitcoin
+    - blockchain
+    - terminal
+    - trading
+  relationship: free-lancer
+- organization:
+    name: The Mobility House GmbH
+    url: https://www.mobilityhouse.com
+  country: Germany
+  city: Munich
+  period: December 2015 - September 2017
+  title: Consultant/Engineer
+  active: false
+  public: true
+  description: |
+    Joined the company when there were only architects on the engineering team
+    and helped out with the recruiting of a engineering team, the development
+    of the first services and the architecting of the overall architecture for
+    the system we were working towards. With regards to the development part of
+    my contributions, the focus was on producing the software to be used in
+    relaying communications from our cloud environment to the industrial
+    computers that controlled the assets of interest (battery banks) within a
+    network with numerous safeguards to complicate unwanted access (as mandated
+    by German regulations as this pertained to an infrastructure project and
+    therefore was subjected to the necessary requirements to safeguard national
+    security) and accessed through an unreliable network (GPRS link).
+  keywords:
+    - Erlang
+    - Scala
+    - distributed computing
+    - golang
+    - greentech
+  relationship: free-lancer
+- organization:
+    name: Freewayworks LLC
+    url: https://web.archive.org/web/20151114154538/http://prelaunch.heyride.com/
+    #url: https://web.archive.org/web/20151014200938/http://freewayworks.com/
+  country: Germany
+  city: Berlin
+  period: August 2015 - October 2015
+  title: interim CTO
+  active: false
+  public: true
+  description: |
+    Joined Freewayworks LLC to help the company through a incubation program
+    and aid in bringing the concept to the public. In my three months with the
+    company we spent a predominant amount of our time on customer development
+    and testing while a smaller portion was spent on refining prototypes in
+    order to gather customer feedback. The product pivoted to HeyRide, which
+    utilized a basic application to simplify the dispatching of riders to
+    passengers
+  keywords:
+    - AWS
+    - Heroku
+    - MongoDB
+    - Node.js
+    - Redis
+    - Ruby
+    - Ruby on Rails
+    - custdev
+    - mobility
+- organization:
+    name: Arya mHealth UG
+    url: https://web.archive.org/web/20150810204935/http://www.aryaapp.co/
+  country: Germany
+  city: Berlin
+  period: July 2015
+  title: Software Engineer
+  description: |
+    Built parts of the API for the healthcare solution that was targeted at
+    helping people dealing with depression.
+  keywords:
+   - Ruby
+   - Grape (microframework)
+  active: false
+  public: true
+  type: work
+  relationship: free-lancer
+- organization:
+    name: Vita.io
+    #url: http://vita.io
+    #url: https://web.archive.org/web/20150530011059/http://vita.io/
+    url: https://web.archive.org/web/20170929080401/https://vita.io/
+  country: The Netherlands
+  city: Rotterdam
+  period: May 2015
+  title: Consultant/DevOps Engineer
+  description: |
+    Assisted in the attempts to explore the options in moving away from a few
+    virtual private servers towards a cloud-based solution that offered the
+    required redundancy and necessary flexibility to accommodate the workload.
+  keywords:
+   - Ansible
+   - Azure
+   - Cassandra
+   - Mesos
+   - Storm
+   - Zookeeper
+   - cloud-computing
+   - dev-ops
+  active: false
+  public: true
+  type: work
+  relationship: free-lancer
+- organization:
+    name: 99chairs GmbH
+    url: https://web.archive.org/web/20150910000209/https://www.99chairs.com/
+  country: Germany
+  city: Berlin
+  period: May 2015 - June 2015
+  title: Software Engineer
+  description: |
+    Designed and tuned an ElasticSearch engine used to simplify the matching of
+    furniture by the interior designers working for the firm. Besides tuning
+    the ElasticSearch engine and studying the different options that yielded
+    better results for the goal in mind, I assisted in developing some
+    complementing functionality within their Ruby on Rails environment as well.
+  keywords:
+   - Elasticsearch
+   - Ruby
+   - Ruby on Rails
+  active: true
+  public: true
+  type: work
+  relationship: free-lancer
+- organization:
+    name: T.U. Delft
+    url: http://opentrafficsim.org # https://citg.tudelft.nl
+  country: The Netherlands
+  city: Delft
+  period: Februari 2014
+  title: Software Engineer
+  description: |
+    Professors Hans van Lint and Alexander Verbraeck are working on a
+    multi-scale multi-mode open-source traffic simulator. I have the privilege
+    of contributing to this project by designing some software tools that are
+    meant to simplify the use of the simulation engine.
+  keywords:
+   - Java
+   - User Interfaces
+   - simulation
+  active: false
+  public: false
+  type: work
+  relationship: contributor
+- organization:
+    name: Saddl B.V.
+    url: https://web.archive.org/web/20150706113438/http://www.saddl.nl/<Paste>
+  country: The Netherlands
+  city: Amsterdam
+  period: November 2014 - 2015
+  title: Co-founder/CTO
+  description: Saddl acquired Laundr (technically), and I assumed the role of CTO in order to ensure that our technology serves our promise to our clients. I spend much of the time delivering features with the developers, architecting and buidling the back-end, designing and maintaining the infrastructure which we currently host at Google Cloud, maintaining the quality of our goods and planning for the future (anticipating the possible scaling issues we may run into).
+  keywords:
+   - Angular
+   - Python
+   - Google Cloud
+   - MongoDB
+   - Docker
+   - CoreOS
+   - Kubernetes
+   - RabbitMQ
+  active: true
+  public: true
+  type: work
+  relationship: core-member
+- organization:
+    name: Laundr
+    url: https://web.archive.org/web/20150801232808/http://laundr.co/
+  country: The Netherlands
+  city: Rotterdam
+  period: Februari 2014 - December 2014
+  title: Co-founder/engineer
+  description: Engineered and develop a considerable portion of the Laundr stack. As lead-engineer my responsibilities involved the execution and management of development of the back-end and client applications (for both smartphones and web) necessary to offer a user-friendly service to the customers.
+  keywords:
+   - Angular
+   - Node.js
+   - PostgreSQL
+   - Redis
+   - Cordova
+  active: false
+  public: true
+  type: work
+  relationship: core-member
+- organization:
+    name: Trovey
+    url: https://trovey.co
+  country: The Netherlands
+  city: Rotterdam
+  period: October 2014
+  title: Co-founder/Chief Engineer
+  description: Joined a group of entrepreneurs with the intent to simplify the way in which we find and acquire (second-hand) products goods.
+  keywords:
+   - Google Cloud
+   - MongoDB
+   - Ruby
+   - Angular
+   - Ionic
+  active: false
+  public: false
+  type: work
+  relationship: core-member
+- organization:
+    name: SolarSwing
+    url: https://web.archive.org/web/20151026131548/http://www.solarswing.com/
+  country: The Netherlands
+  city: Delft
+  period: May 2014 - May 2015
+  title: Engineer
+  description: Working on some things I&rsquo;m not fully at liberty to discuss. I am mostly busy designing the electronics necessary to extract data from the system (using sensors, filters and amplifiers) and implementing the complementary logic in the firmware.
+  keywords:
+   - C/C++
+   - ARM Cortex-M
+   - Analog electronics
+   - Embedded systems
+   - Spark
+  active: true
+  public: true
+  type: work
+  relationship: free-lancer
+- organization:
+    name: Jobsrepublic
+    url: https://www.jobsrepublic.nl
+  country: The Netherlands
+  city: Amsterdam
+  period: October 2014 - December 2014
+  title: Software Developer
+  description: Maintaining a job placement and matching platform developed in Ruby. This involves executing bug-fixes, improving the general structure of the project and optimizing the migrate and deploy workflows. During my time here, I have also assisted in executing a migration to AWS.
+  keywords:
+   - Ruby
+   - Ruby on Rails
+   - MS SQL
+   - MySQL
+   - AWS
+  active: true
+  public: true
+  type: work
+  relationship: maintainer
+- organization:
+    name: Toperators
+    url: https://www.toperators.com
+  country: The Netherlands
+  city: Rotterdam
+  period: August 2014
+  title: Engineer
+  description: Spend a weekend helping an acquaintance from Startupbus to finish and deploy the Rails application. We worked on implementing S3 storage, fixing the routing, refactoring the codebase and building and improving several core features to help in having a prototype ready in time for the IBC conference.
+  keywords:
+   - Ruby
+   - Ruby on Rails
+   - PostgreSQL
+   - AWS
+   - S3
+  active: true
+  public: true
+  type: work
+  relationship: barter
+- organization:
+    name: Muvement
+    #url: https://api.muve.io
+  country: The Netherlands
+  city: Rotterdam
+  period: May 2014 - current
+  title: Engineer
+  description: Developing a simple platform for tracking user movements and triggering actions using geofences as markers. I have been able to use this solution for several applications I have built in the meantime.
+  keywords:
+   - Ruby
+   - Python
+   - Sinatra
+   - Ruby on Rails
+   - RabbitMQ
+   - SOA
+   - iOS
+   - geo-location
+   - geo-fencing
+  active: true
+  public: true
+  type: work
+  relationship: sole-developer
+- organization:
+    name: SolarSwing
+    url: https://www.solarswing.nl
+  country: The Netherlands
+  city: Rotterdam
+  period: May 2014 - July 2014
+  title: Engineer
+  description: Developed a sensing option for the detection of the blinds and helped to incorporate the feature into the existing firmware.
+  keywords:
+   - Analog electronics
+   - C/C++
+   - Digital Signal Processing
+  active: true
+  public: false
+  type: work
+  relationship: trial
+- organization:
+    name: Ratemash
+    url: http://ratemash.com
+  country: United Kingdom
+  city: London
+  keywords:
+   - Ruby
+   - Ruby on Rails
+   - PostgreSQL
+   - Optimization
+  period: November 2013 - December 2013
+  title: Engineer
+  description: Spend a few days refactoring the application to accomodate more traffic. Some of the steps taken involved the configuration of indexes in the relational database and the refactoring of code to improve the overal performance of the web application. For some operations these steps slashed the runtime to a timespan less than a fifth of the former execution time.
+  active: false
+  public: true
+  type: work
+  relationship: core-member
+- organization:
+    name: Startupbus
+    url: http://www.startupbus.com
+    country: The Netherlands
+  period: 2013
+  type: event
+  title: Participant
+  description: Parttaker in the Startupbus tour in which a team of bright minds (designers, engineers/developers and business developers) had as the main goal to usher a concept into existence within 3 days en-route to the final desination. During the tour I adopted the role of technology lead for the Startup Tycoon team in order to develop a working tycoon game. We eventually ended up with a gaming logic engine which took care of the gaming mechanics for a tycoon game whilst presenting the content through text to the end-user.
+  active: true
+  public: true
+  type: workshop
+  keywords:
+   - Ruby
+   - Ruby on Rails
+   - PostgreSQL
+  relationship: participant
+- organization:
+    name: Codename Wire
+    url: https://wire.labs.supr.nu
+    country: The Netherlands
+  period: 2012 - current
+  title: Co-founder/Engineer
+  description: 
+  active: false
+  public: false
+  type: work
+  relationship: core-member
+  keywords:
+   - Scala
+   - Play
+   - PostgreSQL
+- organization:
+    name: Memocom
+    url: http://www.memocom.com
+  country: The Netherlands
+  city: Rotterdam
+  period: June 2013 - October 2013
+  title: Engineer
+  description: Free-lance developer maily responsible for implementing e-mail synchronization and processing (automatic linking of related entities to e-mails) in the CRM.
+  active: true
+  public: true
+  type: work
+  relationship: participant
+  keywords:
+   - Ruby
+   - Ruby on Rails
+   - MySQL
+   - in-app e-mail synchronization
+   - background jobs
+- organization:
+    name: LSM
+    url: http://www.leanstartupmachine.com
+    country: The Netherlands
+  period: 2012
+  title: Participant
+  description: Parttaker in the 2012th Edition of the Lean Startup Machine workshop in Rotterdam designed to teach participants the practical applications of lean methodologies in establishing a viable business forthcoming from a concept, focussing especially on customer development. The team I was enlisted to won the first-prize for this competition.
+  active: true
+  public: true
+  type: workshop
+  relationship: participant
+  keywords:
+   - Concept Validation
+   - Customer Development
+- organization:
+    name: Suprnovae
+    url: http://www.supr.nu
+    country: The Netherlands
+  period: 2012 - current
+  title: Founder/Engineer
+  description: Initial founder and starting engineer of the agency, with our core-focus on helping start-ups usher ideas into the realm of reality. The company accomplishes this by assisting in the development of software (smartphone apps, web apps) and the engineering of necessary electronics.
+  active: true
+  public: true
+  type: work
+  relationship: owner
+- organization:
+    name: Metatronics
+    url: http://www.metatronics.nl
+  country: The Netherlands
+  city: Eindhoven
+  period: 2011 - 2012
+  title: Embedded Systems Engineering Intern
+  description: Intern charged with the development of a proof-of-concept for a home-automation system and the development of a track-and-tracing solution utilizing GPS and GPRS technology. My activities involved the engineering of the circuitry, circuit boards and software.
+  active: true
+  public: true
+  type: work
+  relationship: intern
+  keywords:
+   - Wifi (802.11)
+   - GPRS
+   - Radio
+   - Python (Twisted)
+- organization:
+    name: Hogeschool Rotterdam (University of Rotterdam)
+    url: http://www.hro.nl
+  country: The Netherlands
+  city: Rotterdam
+  period: 2007 - 2012
+  title: B.Eng (Electronics Engineering, Embedded Systems)
+  description: "Student of the Embedded Systems Engineering track at the 
+  Electronics department of the faculty of Engineering and Applied Sciences. 
+  The educational program touched on subjects varying from the conceptual 
+  design of system architectures to the construction of electronic circuitry 
+  leveraging concepts from control theory, power electornics, analog electronics 
+  and digital electronics domains.
+  <br/>
+  During the course of the program I parttook in the development of robots, 
+  amplifiers, control circuits and software systems in the context of lab-work, 
+  assignments or projects.
+  <br/>
+  Honestly, I had the time of my life here. Very hands-on approach. We got our
+  hands dirty and we built cool things. My kind of program."
+  active: false
+  public: true
+  type: education
+  relationship: student
+  keywords:
+   - VHDL
+   - C/C++
+   - PLC
+   - Embedded Systems
+   - Analog Electronics
+   - Power Electronics
+- organization:
+    name: Peppered B.V.
+    url: http://www.peppered.nl
+  country: The Netherlands
+  city: Delft
+  period: 2007 - 2010
+  title: Part-time all-around developer
+  description: Part-time developer mainly responsible for constructing the mailing templates and assisting in minor framework feature implementation sessions.
+  active: false
+  public: true
+  type: work
+  relationship: employee
+  keywords:
+   - PHP
+   - MySQL
+- organization:
+    name: T.U. Delft
+    url: http://www.tudelft.nl
+  description: "After a year in the goldmines I started my first weeks at the
+  university. I spent many sleepless nights getting up to speed in my 
+  subjects to keep up with my peers. It was quite a struggle, but I kept 
+  pushing. After a chat with the dean, I discovered that I should not have 
+  been admitted with my HAVO diploma (they explained that the American high 
+  school program compares to the Dutch HAVO program).
+  <br/>In The Netherlands, 
+  WO universities require students to have a VWO diploma or at least a 
+  Propedeuse (completion of the freshman year) from an accredited HBO 
+  university prior to joining a WO university program. At this point I started 
+  looking for a HBO university (hogeschool) in order to obtain my Propedeuse. 
+  <br/>
+  I was not well aware of this difference when I signed up for the program 
+  whilst in Suriname, but now I know that the Dutch educational system is a bit
+  more layered then the American system, which I'm more acquainted with."
+  period: 2007
+  title: drop-out
+  active: false
+  public: true
+  type: education
+  relationship: student
+- organization:
+    name: IAMGold Rosebel Goldmines N.V.
+    url: http://www.iamgold.com/English/Operations/Operating-Mines/Rosebel-Gold-Mine-Suriname/default.aspx
+  country: Suriname 
+  period: 2006 - 2007
+  title: ICT Technician
+  description: ICT Technician primarily responsible for assisting in the maintenance of the communications infrastructure. Activities consisted of the troubleshooting of telephone links, installation of telecommunications equipment (PBX expansion boards, additional lines), troubleshooting of computer problems and repairing defective computing workstations.
+  active: false
+  public: true
+  type: work
+  relationship: employee
+- organization:
+    name: Ampies Broadcasting Corporation
+    url: http://www.abcsuriname.com
+  country: Suriname 
+  city: Paramaribo
+  period: 2005 - 2006
+  title: Audio Engineer
+  description: Engineer during the live radio shows aired throughout my assigned shift. The job involved the management of prepared cues to be played-back on-air during the radioshows, the preparation of the studios for broadcast (placing and testing needed equipment in the studios), the live mixing of all involved aural inputs for broadcast and the assisting of hosts in technical matters (the editing of audio samples to be used in the shows).
+  active: false
+  public: true
+  type: work
+  relationship: employee
+- organization:
+    name: Mediavision N.V.
+    url: http://www.mediavision.sr
+  country: Suriname 
+  city: Paramaribo
+  period: 2005
+  title: Network Administrator
+  description: Maintainer of a small network of approximately ten workstations with the responsibilities of troubleshooting/repairing workstations and resolving networking problems.
+  active: false
+  public: true
+  type: work
+  relationship: employee
+- organization:
+    name: Hencom Trai.
+    url: http://www.hencomtrai.com
+  country: Suriname 
+  city: Paramaribo
+  period: 2004
+  title: Store clerk
+  description: Store clerk in the internet-cafe/print-shop with the task of assisting customers in navigating the internet and printing documents
+  active: false
+  public: true
+  type: work
+  relationship: employee
